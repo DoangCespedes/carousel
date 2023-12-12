@@ -179,6 +179,15 @@
             'first_appearance':'The Fantastic Four #48',
             'characters':'Norrin Radd',
             img: "marvel-silver.jpg"
+        },
+        {
+            'id': 'leon',
+            'superhero':'Leon', 
+            'publisher':'Selva Comics', 
+            'alter_ego':'Leon',
+            'first_appearance':'Eden #1',
+            'characters':'Leon',
+            img: "leon.jpg"
         }
     ]
      

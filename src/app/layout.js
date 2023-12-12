@@ -12,10 +12,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <h1 style={{textAlign:'center'}}>Carousels </h1>
-        <div style={{border: 'solid 2px black', width:'100%',  display: 'flex', justifyContent: 'center'}}>
+        {/* <h1 style={{textAlign:'center'}}>Carousels </h1> */}
+        {/* <div style={{border: 'solid 2px black', width:'100%',  display: 'flex', justifyContent: 'center'}}> */}
           {children}
-        </div>
+        {/* </div> */}
       </body>
     </html>
   )
