@@ -1,17 +1,17 @@
-// import { IconName } from "react-icons/vsc";
-
+import { FaBeer } from 'react-icons/fa';
+import "./Style.css"
 
 const Tickets = () => {
   return (
     <>
-        <div style={{width:'220px', display:'flex', height:'100px', borderRadius:'10px'}}>
-            <div style={{width:'80px',display:'flex',flexWrap:'wrap', background:'rgb(0, 200, 83)',padding:'28px 0px', color:'white'}}> asdfasf</div>
-            <div style={{width:'140px',display:'flex',flexWrap:'wrap'}}>
+        <div className="contenedor_padre">
+            <div className="contenedor_color" > <FaBeer /></div>
+            <div className="contenedor_target">
                 <div style={{}}>
-                    asnf
-                {/* <IconName/> */}
+                    <p><b>132425</b></p>
+                    <p>Last week user</p>
                 </div>
-            </div>
+            </div> 
             <div style={{}}></div>
         </div>
     </>

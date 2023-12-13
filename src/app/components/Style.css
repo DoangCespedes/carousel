@@ -1,0 +1,30 @@
+.contenedor_padre{
+    width:300px;
+    display:flex;
+    height:100px;
+    border: 1px solid black;
+    border-radius:10px;
+    margin: 5px 5px 5px 5px
+}
+
+
+.contenedor_color{
+
+    width:80px;
+    display:flex;
+    flex-wrap:wrap;
+    background:rgb(0, 200, 83);
+    padding:28px 0px;
+    color:white;
+    border-radius: 10px 0 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor_target{
+    width: 140px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
