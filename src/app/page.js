@@ -9,10 +9,10 @@ export default function Home() {
     <>
       
 
-        <h1 style={{textAlign:"center"}}>Carousel Multi-Item con Next.js</h1>
-      <div style={{width:"100%"}}>
+      <h1 style={{textAlign:"center"}}>Carousel Multi-Item con Next.js</h1>
+      {/* <div style={{width:"100%"}}>
         <Carousell />
-      </div>
+      </div> */}
     
       {/* <Cardd/> */}
 

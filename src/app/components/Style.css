@@ -1,7 +1,7 @@
 .contenedor_padre{
-    width:300px;
+    width:20rem;
     display:flex;
-    height:100px;
+    height:8rem;
     border: 1px solid black;
     border-radius:10px;
     margin: 5px 5px 5px 5px
@@ -10,10 +10,10 @@
 
 .contenedor_color{
 
-    width:80px;
+    width:6rem;
     display:flex;
     flex-wrap:wrap;
-    background:rgb(0, 200, 83);
+    /* background:#00c853; */
     padding:28px 0px;
     color:white;
     border-radius: 10px 0 0 10px;
@@ -21,10 +21,29 @@
     justify-content: center;
 }
 
-.contenedor_target{
-    width: 140px;
-    display:flex;
-    flex-wrap:wrap;
+
+.contenedor_target {
+    width: 15rem;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.contenedor_target h3{
+    font-size: 21px;
+    text-align: center;
+
+}
+.contenedor_target h5{
+    font-size: 16px;
+    text-align: center;
+
+}
+.contenedor_target p{
+    text-align: center;
+    font-size: 12px;
 }

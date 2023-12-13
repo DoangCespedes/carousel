@@ -11,11 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        {/* <h1 style={{textAlign:'center'}}>Carousels </h1> */}
-        {/* <div style={{border: 'solid 2px black', width:'100%',  display: 'flex', justifyContent: 'center'}}> */}
+      <body className={inter.className} style={{background:'#EEF2F6'}}>
+       
           {children}
-        {/* </div> */}
       </body>
     </html>
   )
