@@ -5,7 +5,7 @@
         'title':'Tickets en Certificación', 
         'comentario':'por parte del Usuario',
         'numero':'0',
-        'icon':'FaBeer',
+        'icon':'user',
         'color':'#909497'
     },
     {
@@ -13,7 +13,7 @@
         'title':'Ticket en Desarrollo Pendiente', 
         'comentario':'por Iniciar',
         'numero':'0',
-        'icon':'FaBeer',
+        'icon':'file',
         'color':'#F39C12'
     },
     {
@@ -21,7 +21,7 @@
         'title':'Tickets Pendientes por', 
         'comentario':'Asignar Recursos Internos', 
         'numero':'0',
-        'icon':'FaBeer',
+        'icon':'usersPlus',
         'color':'#2980B9'
     },
     {
@@ -29,7 +29,7 @@
         'title':'Tickets en Desarrollo', 
         'comentario':'con Fecha de Pase Vencida', 
         'numero':'17',
-        'icon':'FaBeer',
+        'icon':'user',
         'color':'#76448A'
     },
     {
@@ -37,7 +37,7 @@
         'title':'Solicitudes de Postergación', 
         'comentario':'Pendientes por Aprobar', 
         'numero':'',
-        'icon':'FaBeer',
+        'icon':'comments',
         'color':'#A93226 '
     },
     {
@@ -45,7 +45,7 @@
         'title':'Tickets en Desarrollo', 
         'comentario':'Proximos a Vencer', 
         'numero':'18',
-        'icon':'FaBeer',
+        'icon':'user',
         'color':'#C70039'
     },
     {
@@ -53,7 +53,7 @@
         'title':'Tickets ERS pendientes', 
         'comentario':'por asignar fechas', 
         'numero':'0',
-        'icon':'FaBeer',
+        'icon':'circle',
         'color':'#00c853'
     },
     {
@@ -61,7 +61,7 @@
         'title':'Tickets ERS con fecha asignada ', 
         'comentario':'y sin documento ERS', 
         'numero':'0',
-        'icon':'FaBeer',
+        'icon':'memoInfo',
         'color':'#5D6D7E '
     },
     {
@@ -69,7 +69,7 @@
         'title':'Tickets ERS', 
         'comentario':'vencidos', 
         'numero':'0',
-        'icon':'FaBeer',
+        'icon':'triangle',
         'color':'#FFC300 '
     },
     {
@@ -77,7 +77,7 @@
         'title':'Consultar de Tickets', 
         'comentario':'en General', 
         'numero':'2759',
-        'icon':'FaBeer',
+        'icon':'memoCheck',
         'color':'#3498DB '
     },
     {
@@ -85,7 +85,7 @@
         'title':'Tickets Pendientes', 
         'comentario':'por Asignar por Supervisor', 
         'numero':'61',
-        'icon':'FaBeer',
+        'icon':'idCard',
         'color':'#900C3F'
     },
     {
@@ -93,7 +93,7 @@
         'title':'Ticket por Asignar Fechas', 
         'comentario':'por Desarrollador', 
         'numero':'60',
-        'icon':'FaBeer',
+        'icon':'user',
         'color':'#FF5733'
     },
     

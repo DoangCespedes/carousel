@@ -2,25 +2,22 @@
     width:20rem;
     display:flex;
     height:8rem;
-    border: 1px solid black;
+    border: 1px solid rgb(231, 227, 227);
     border-radius:10px;
-    margin: 5px 5px 5px 5px
+    margin: 5px 5px 5px 5px;
+    box-shadow: 5px 5px #d8d7d7;
 }
 
-
 .contenedor_color{
-
     width:6rem;
     display:flex;
     flex-wrap:wrap;
-    /* background:#00c853; */
     padding:28px 0px;
     color:white;
     border-radius: 10px 0 0 10px;
     align-items: center;
     justify-content: center;
 }
-
 
 .contenedor_target {
     width: 15rem;
@@ -29,8 +26,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    border-radius: 10px;
-    
+    border-radius: 10px;  
 }
 
 .contenedor_target h3{
@@ -46,4 +42,21 @@
 .contenedor_target p{
     text-align: center;
     font-size: 12px;
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    
+    text-align: center;
+    height: 2rem;
+    width: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: black;
+    border-radius: 20%;
+}
+
+.carousel-indicators [data-bs-target] {
+    
+    display: none;
 }

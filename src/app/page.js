@@ -17,6 +17,9 @@ export default function Home() {
       {/* <Cardd/> */}
 
       <Tickets/>
+
+      <h2 style={{textAlign:"center"}}>Segundo Carousel Multi-Item con Next.js</h2>
+      <Tickets/>
     
     </>
   )
