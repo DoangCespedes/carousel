@@ -3,7 +3,7 @@ import "./Style.css"
 import React, { useEffect, useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Items } from "./data/Items_2.js";
+import { Items } from "../data/Items_2.js";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faComments, faTriangleExclamation, faCircleExclamation, faFileLines, faIdCard, faUserPlus} from '@fortawesome/free-solid-svg-icons';
 
@@ -81,6 +81,7 @@ const Tickets = () => {
                   {row.map((item, itemIndex) => (
                     <div key={itemIndex} className={`col-md-${12 / itemsPerPage}`}>
                       
+                      {/* card */}
                       <div className="contenedor_padre">
                         <div className="contenedor_color" style={{background:`${item.color}`}} > 
                         <FontAwesomeIcon icon={getFontAwesomeIcon(item.icon)} />
@@ -94,6 +95,7 @@ const Tickets = () => {
                             </div>
                         </div> 
                     </div>
+                    {/* card */}
                 </div>
                   ))}
                 </div>

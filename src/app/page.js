@@ -1,6 +1,7 @@
 import  {Carousell}  from "@/app/components/Carousell";
 import { Cardd } from "./components/Cardd";
-import Tickets from "./components/Tickets";
+import Tickets from "./components/carousel/Tickets";
+import { Card } from "./components/carousel_2/Card";
 
 export default function Home() {
 
@@ -19,7 +20,8 @@ export default function Home() {
       <Tickets/>
 
       <h2 style={{textAlign:"center"}}>Segundo Carousel Multi-Item con Next.js</h2>
-      <Tickets/>
+      
+      <Card/>
     
     </>
   )

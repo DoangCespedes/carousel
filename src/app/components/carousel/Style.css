@@ -6,7 +6,9 @@
     border-radius:10px;
     margin: 5px 5px 5px 5px;
     box-shadow: 5px 5px #d8d7d7;
+    cursor: pointer;
 }
+
 
 .contenedor_color{
     width:6rem;
@@ -46,17 +48,15 @@
 
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
-    
     text-align: center;
     height: 2rem;
     width: 2rem;
     background-repeat: no-repeat;
     background-position: 50%;
-    background-color: black;
+    background-color: rgb(189, 189, 197, 0.8);
     border-radius: 20%;
 }
 
-.carousel-indicators [data-bs-target] {
-    
+.carousel-indicators [data-bs-target] { 
     display: none;
 }
